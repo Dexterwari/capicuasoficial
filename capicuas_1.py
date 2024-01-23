@@ -2,6 +2,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 import requests
 from io import BytesIO
+import panas as pd
 
 def cargar_imagen(url):
     try:
